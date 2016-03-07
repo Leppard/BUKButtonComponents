@@ -7,155 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		CDC3623AB414767F4A96897F /* Pods_BUKButtonComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890869E68A68BA7397322EEC /* Pods_BUKButtonComponents_Tests.framework */; };
+		8CE423D71C8D24A700F5038A /* BUKViewLabelHorizontalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */; };
+		8CFC4C2D1C87DF7900951881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C2C1C87DF7900951881 /* main.m */; };
+		8CFC4C301C87DF7900951881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C2F1C87DF7900951881 /* AppDelegate.m */; };
+		8CFC4C331C87DF7900951881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C321C87DF7900951881 /* ViewController.m */; };
+		8CFC4C361C87DF7900951881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC4C341C87DF7900951881 /* Main.storyboard */; };
+		8CFC4C381C87DF7900951881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC4C371C87DF7900951881 /* Assets.xcassets */; };
+		8CFC4C441C87E1A600951881 /* BUKViewLabelVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C431C87E1A600951881 /* BUKViewLabelVerticalButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40FE0C41AF70AEC04D1E3AE2 /* BUKButtonComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BUKButtonComponents.podspec; path = ../BUKButtonComponents.podspec; sourceTree = "<group>"; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* BUKButtonComponents_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUKButtonComponents_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7044D64989F7C9496E71F181 /* Pods-BUKButtonComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUKButtonComponents_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BUKButtonComponents_Tests/Pods-BUKButtonComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		80B63AF579CDABE5E4196B2D /* Pods-BUKButtonComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUKButtonComponents_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BUKButtonComponents_Tests/Pods-BUKButtonComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		890869E68A68BA7397322EEC /* Pods_BUKButtonComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUKButtonComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C8C1F5EAA4C28C24EF96D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FEF1382E4C6F20D5EA1E45BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8CE423D51C8D24A700F5038A /* BUKViewLabelHorizontalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKViewLabelHorizontalButton.h; sourceTree = "<group>"; };
+		8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKViewLabelHorizontalButton.m; sourceTree = "<group>"; };
+		8CFC4C281C87DF7900951881 /* BUKButtonComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUKButtonComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFC4C2C1C87DF7900951881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CFC4C2E1C87DF7900951881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CFC4C2F1C87DF7900951881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CFC4C311C87DF7900951881 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CFC4C321C87DF7900951881 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CFC4C351C87DF7900951881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CFC4C371C87DF7900951881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CFC4C3C1C87DF7900951881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFC4C421C87E1A600951881 /* BUKViewLabelVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKViewLabelVerticalButton.h; sourceTree = "<group>"; };
+		8CFC4C431C87E1A600951881 /* BUKViewLabelVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKViewLabelVerticalButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		8CFC4C251C87DF7900951881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CDC3623AB414767F4A96897F /* Pods_BUKButtonComponents_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6003F581195388D10070C39A = {
+		8CFC4C1F1C87DF7900951881 = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F5B5195388D20070C39A /* Tests */,
-				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
-				8335DBA27AC133CFD51C6070 /* Pods */,
+				8CFC4C2A1C87DF7900951881 /* BUKButtonComponents */,
+				8CFC4C291C87DF7900951881 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6003F58B195388D20070C39A /* Products */ = {
+		8CFC4C291C87DF7900951881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* BUKButtonComponents_Tests.xctest */,
+				8CFC4C281C87DF7900951881 /* BUKButtonComponents.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6003F58C195388D20070C39A /* Frameworks */ = {
+		8CFC4C2A1C87DF7900951881 /* BUKButtonComponents */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				890869E68A68BA7397322EEC /* Pods_BUKButtonComponents_Tests.framework */,
+				8CFC4C2E1C87DF7900951881 /* AppDelegate.h */,
+				8CFC4C2F1C87DF7900951881 /* AppDelegate.m */,
+				8CFC4C311C87DF7900951881 /* ViewController.h */,
+				8CFC4C321C87DF7900951881 /* ViewController.m */,
+				8CFC4C341C87DF7900951881 /* Main.storyboard */,
+				8CFC4C371C87DF7900951881 /* Assets.xcassets */,
+				8CFC4C3C1C87DF7900951881 /* Info.plist */,
+				8CFC4C2B1C87DF7900951881 /* Supporting Files */,
+				8CFC4C421C87E1A600951881 /* BUKViewLabelVerticalButton.h */,
+				8CFC4C431C87E1A600951881 /* BUKViewLabelVerticalButton.m */,
+				8CE423D51C8D24A700F5038A /* BUKViewLabelHorizontalButton.h */,
+				8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */,
 			);
-			name = Frameworks;
+			path = BUKButtonComponents;
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
+		8CFC4C2B1C87DF7900951881 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+				8CFC4C2C1C87DF7900951881 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				40FE0C41AF70AEC04D1E3AE2 /* BUKButtonComponents.podspec */,
-				FEF1382E4C6F20D5EA1E45BD /* README.md */,
-				97C8C1F5EAA4C28C24EF96D4 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		8335DBA27AC133CFD51C6070 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80B63AF579CDABE5E4196B2D /* Pods-BUKButtonComponents_Tests.debug.xcconfig */,
-				7044D64989F7C9496E71F181 /* Pods-BUKButtonComponents_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* BUKButtonComponents_Tests */ = {
+		8CFC4C271C87DF7900951881 /* BUKButtonComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BUKButtonComponents_Tests" */;
+			buildConfigurationList = 8CFC4C3F1C87DF7900951881 /* Build configuration list for PBXNativeTarget "BUKButtonComponents" */;
 			buildPhases = (
-				38B58F24EBE5551F36CCCC7D /* Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				615F252240C0817525AE793D /* Embed Pods Frameworks */,
-				0E9AA1B5F92C84F33FA92D69 /* Copy Pods Resources */,
+				8CFC4C241C87DF7900951881 /* Sources */,
+				8CFC4C251C87DF7900951881 /* Frameworks */,
+				8CFC4C261C87DF7900951881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BUKButtonComponents_Tests;
-			productName = BUKButtonComponentsTests;
-			productReference = 6003F5AE195388D20070C39A /* BUKButtonComponents_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = BUKButtonComponents;
+			productName = BUKButtonComponents;
+			productReference = 8CFC4C281C87DF7900951881 /* BUKButtonComponents.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6003F582195388D10070C39A /* Project object */ = {
+		8CFC4C201C87DF7900951881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BUK;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Li Zhenliang";
+				ORGANIZATIONNAME = Baixing;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					8CFC4C271C87DF7900951881 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BUKButtonComponents" */;
+			buildConfigurationList = 8CFC4C231C87DF7900951881 /* Build configuration list for PBXProject "BUKButtonComponents" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,99 +128,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 6003F581195388D10070C39A;
-			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			mainGroup = 8CFC4C1F1C87DF7900951881;
+			productRefGroup = 8CFC4C291C87DF7900951881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* BUKButtonComponents_Tests */,
+				8CFC4C271C87DF7900951881 /* BUKButtonComponents */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F5AC195388D20070C39A /* Resources */ = {
+		8CFC4C261C87DF7900951881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				8CFC4C381C87DF7900951881 /* Assets.xcassets in Resources */,
+				8CFC4C361C87DF7900951881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0E9AA1B5F92C84F33FA92D69 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUKButtonComponents_Tests/Pods-BUKButtonComponents_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		38B58F24EBE5551F36CCCC7D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		615F252240C0817525AE793D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUKButtonComponents_Tests/Pods-BUKButtonComponents_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6003F5AA195388D20070C39A /* Sources */ = {
+		8CFC4C241C87DF7900951881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				8CFC4C331C87DF7900951881 /* ViewController.m in Sources */,
+				8CFC4C301C87DF7900951881 /* AppDelegate.m in Sources */,
+				8CFC4C441C87E1A600951881 /* BUKViewLabelVerticalButton.m in Sources */,
+				8CFC4C2D1C87DF7900951881 /* main.m in Sources */,
+				8CE423D71C8D24A700F5038A /* BUKViewLabelHorizontalButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+		8CFC4C341C87DF7900951881 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
+				8CFC4C351C87DF7900951881 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6003F5BD195388D20070C39A /* Debug */ = {
+		8CFC4C3D1C87DF7900951881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,32 +192,35 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6003F5BE195388D20070C39A /* Release */ = {
+		8CFC4C3E1C87DF7900951881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,88 +235,72 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		8CFC4C401C87DF7900951881 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80B63AF579CDABE5E4196B2D /* Pods-BUKButtonComponents_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BUKButtonComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baixing.BUKButtonComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BUKButtonComponents_Example.app/BUKButtonComponents_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		8CFC4C411C87DF7900951881 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7044D64989F7C9496E71F181 /* Pods-BUKButtonComponents_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BUKButtonComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baixing.BUKButtonComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BUKButtonComponents_Example.app/BUKButtonComponents_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "BUKButtonComponents" */ = {
+		8CFC4C231C87DF7900951881 /* Build configuration list for PBXProject "BUKButtonComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5BD195388D20070C39A /* Debug */,
-				6003F5BE195388D20070C39A /* Release */,
+				8CFC4C3D1C87DF7900951881 /* Debug */,
+				8CFC4C3E1C87DF7900951881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BUKButtonComponents_Tests" */ = {
+		8CFC4C3F1C87DF7900951881 /* Build configuration list for PBXNativeTarget "BUKButtonComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				8CFC4C401C87DF7900951881 /* Debug */,
+				8CFC4C411C87DF7900951881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6003F582195388D10070C39A /* Project object */;
+	rootObject = 8CFC4C201C87DF7900951881 /* Project object */;
 }
