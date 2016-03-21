@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BUKButtonComponents"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Button components for Baixing iOS developers."
   s.homepage         = "https://github.com/Leppard/BUKButtonComponents"
   s.license          = 'MIT'
