@@ -50,7 +50,6 @@
     if (!_imageView) {
         _imageView = [[UIImageView alloc] init];
         _imageView.clipsToBounds = YES;
-        _imageView.backgroundColor = [UIColor blackColor];
         _imageView.contentMode = UIViewContentModeScaleAspectFit;
         _imageView.translatesAutoresizingMaskIntoConstraints = NO;
         [_imageView setContentHuggingPriority:799 forAxis:UILayoutConstraintAxisHorizontal];
