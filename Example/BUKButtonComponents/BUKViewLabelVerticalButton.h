@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BUKButton.h"
 
-@interface BUKViewLabelVerticalButton : UIView
+@interface BUKViewLabelVerticalButton : BUKButton
 
-@property (nonatomic, readonly) UIImageView *imageView;
-@property (nonatomic, readonly) UILabel *label;
+- (void)setSeparateInset:(CGFloat)inset;
 
-- (void)setFrame:(CGRect)frame;
-- (void)setImageForView:(UIImage *)image;
+- (void)setLabelEdgeInsets:(UIEdgeInsets)insets;
+- (void)setImageEdgeInsets:(UIEdgeInsets)insets;
 
 @end

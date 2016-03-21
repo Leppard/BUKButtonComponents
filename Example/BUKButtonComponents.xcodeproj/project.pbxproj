@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8CE423D71C8D24A700F5038A /* BUKViewLabelHorizontalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */; };
+		8CE663A51C9EEB4C009066BF /* BUKLabelViewVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE663A41C9EEB4C009066BF /* BUKLabelViewVerticalButton.m */; };
+		8CE663A91C9F9A62009066BF /* BUKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE663A81C9F9A62009066BF /* BUKButton.m */; };
+		8CE663AC1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE663AB1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.m */; };
 		8CFC4C2D1C87DF7900951881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C2C1C87DF7900951881 /* main.m */; };
 		8CFC4C301C87DF7900951881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C2F1C87DF7900951881 /* AppDelegate.m */; };
 		8CFC4C331C87DF7900951881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC4C321C87DF7900951881 /* ViewController.m */; };
@@ -19,6 +22,12 @@
 /* Begin PBXFileReference section */
 		8CE423D51C8D24A700F5038A /* BUKViewLabelHorizontalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKViewLabelHorizontalButton.h; sourceTree = "<group>"; };
 		8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKViewLabelHorizontalButton.m; sourceTree = "<group>"; };
+		8CE663A31C9EEB4C009066BF /* BUKLabelViewVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKLabelViewVerticalButton.h; sourceTree = "<group>"; };
+		8CE663A41C9EEB4C009066BF /* BUKLabelViewVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKLabelViewVerticalButton.m; sourceTree = "<group>"; };
+		8CE663A71C9F9A62009066BF /* BUKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKButton.h; sourceTree = "<group>"; };
+		8CE663A81C9F9A62009066BF /* BUKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKButton.m; sourceTree = "<group>"; };
+		8CE663AA1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUKLabelViewHorizontalButton.h; sourceTree = "<group>"; };
+		8CE663AB1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUKLabelViewHorizontalButton.m; sourceTree = "<group>"; };
 		8CFC4C281C87DF7900951881 /* BUKButtonComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUKButtonComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFC4C2C1C87DF7900951881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CFC4C2E1C87DF7900951881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +83,12 @@
 				8CFC4C431C87E1A600951881 /* BUKViewLabelVerticalButton.m */,
 				8CE423D51C8D24A700F5038A /* BUKViewLabelHorizontalButton.h */,
 				8CE423D61C8D24A700F5038A /* BUKViewLabelHorizontalButton.m */,
+				8CE663AA1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.h */,
+				8CE663AB1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.m */,
+				8CE663A31C9EEB4C009066BF /* BUKLabelViewVerticalButton.h */,
+				8CE663A41C9EEB4C009066BF /* BUKLabelViewVerticalButton.m */,
+				8CE663A71C9F9A62009066BF /* BUKButton.h */,
+				8CE663A81C9F9A62009066BF /* BUKButton.m */,
 			);
 			path = BUKButtonComponents;
 			sourceTree = "<group>";
@@ -159,6 +174,9 @@
 				8CFC4C301C87DF7900951881 /* AppDelegate.m in Sources */,
 				8CFC4C441C87E1A600951881 /* BUKViewLabelVerticalButton.m in Sources */,
 				8CFC4C2D1C87DF7900951881 /* main.m in Sources */,
+				8CE663AC1C9FCAFB009066BF /* BUKLabelViewHorizontalButton.m in Sources */,
+				8CE663A51C9EEB4C009066BF /* BUKLabelViewVerticalButton.m in Sources */,
+				8CE663A91C9F9A62009066BF /* BUKButton.m in Sources */,
 				8CE423D71C8D24A700F5038A /* BUKViewLabelHorizontalButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
