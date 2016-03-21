@@ -1,14 +1,14 @@
 //
-//  BUKViewLabelHorizontalButton.m
+//  BUKLabelViewHorizontalButton.m
 //  BUKButtonComponents
 //
-//  Created by Leppard on 3/7/16.
+//  Created by Leppard on 3/21/16.
 //  Copyright © 2016 Baixing. All rights reserved.
 //
 
-#import "BUKViewLabelHorizontalButton.h"
+#import "BUKLabelViewHorizontalButton.h"
 
-@interface BUKViewLabelHorizontalButton ()
+@interface BUKLabelViewHorizontalButton ()
 
 @property (nonatomic, strong) UIView *containerView;
 
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation BUKViewLabelHorizontalButton
+@implementation BUKLabelViewHorizontalButton
 
 #pragma mark - life cycle
 
@@ -111,7 +111,7 @@
     UIView *image = self.imageView;
     UIView *label = self.label;
     
-    NSString *hVfl = @"H:|-[image]-separator-[label]-|";
+    NSString *hVfl = @"H:|-[label]-separator-[image]-|";
     NSDictionary *metrics = @{@"separator": [NSNumber numberWithFloat:self.separator]};
     NSArray *hConstraints = [NSLayoutConstraint constraintsWithVisualFormat:hVfl options:NSLayoutFormatAlignAllCenterY metrics:metrics views:NSDictionaryOfVariableBindings(image, label)];
     [self.containerView addConstraints:hConstraints];
@@ -190,17 +190,17 @@
     UIView *image = self.imageView;
     UIView *label = self.label;
     
-    float separator = self.imageInsets.right + self.labelInsets.left;
+    float separator = self.labelInsets.right + self.imageInsets.left;
     
     NSDictionary *metrics = @{@"separator": [NSNumber numberWithFloat:separator],
                               @"imageTop": [NSNumber numberWithFloat:self.imageInsets.top],
-                              @"imageLeft": [NSNumber numberWithFloat:self.imageInsets.left],
+                              @"imageRight": [NSNumber numberWithFloat:self.imageInsets.right],
                               @"imageBottom": [NSNumber numberWithFloat:self.imageInsets.bottom],
                               @"labelTop": [NSNumber numberWithFloat:self.labelInsets.top],
                               @"labelBottom": [NSNumber numberWithFloat:self.labelInsets.bottom],
-                              @"labelRight": [NSNumber numberWithFloat:self.labelInsets.right]};
+                              @"labelLeft": [NSNumber numberWithFloat:self.labelInsets.left]};
     
-    NSString *hVfl = @"H:|-imageLeft-[image]-separator-[label]-labelRight-|";
+    NSString *hVfl = @"H:|-labelLeft-[label]-separator-[image]-imageRight-|";
     NSDictionary *views = NSDictionaryOfVariableBindings(image, label);
     NSArray *hConstraints = [NSLayoutConstraint constraintsWithVisualFormat:hVfl options:0 metrics:metrics views:views];
     [self.containerView addConstraints:hConstraints];
@@ -225,5 +225,6 @@
     }
     return _containerView;
 }
+
 
 @end

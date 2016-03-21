@@ -1,15 +1,15 @@
 //
-//  BUKViewLabelHorizontalButton.h
+//  BUKLabelViewVerticalButton.h
 //  BUKButtonComponents
 //
-//  Created by Leppard on 3/7/16.
+//  Created by Leppard on 3/20/16.
 //  Copyright © 2016 Baixing. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "BUKButton.h"
 
-@interface BUKViewLabelHorizontalButton : BUKButton
+@interface BUKLabelViewVerticalButton : BUKButton
 
 - (void)setSeparateInset:(CGFloat)inset;
 
